@@ -1,15 +1,15 @@
 {
   "name": "AMGViperKit",
   "version": "0.1.0",
-  "summary": "A short description of AMGViperKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Clear Architecture AMGViperKit.",
+  "description": "Clear Architecture AMGViperKit.清晰架构。",
   "homepage": "https://github.com/FKLam/AMGViperKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "FKLam": "1783956729@qq.com"
+    "FKLam": "lfk0120@163.com"
   },
   "source": {
     "git": "https://github.com/FKLam/AMGViperKit.git",
