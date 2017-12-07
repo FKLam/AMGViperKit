@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AMGViperKit_Example' do
+  pod 'AMGViperKit', :path => '../'
+
+  target 'AMGViperKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
