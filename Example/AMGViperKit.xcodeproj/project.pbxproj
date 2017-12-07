@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		280A6286AA4F456936A0B496 /* Pods_AMGViperKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D69FBAD26A7D87D757E0609 /* Pods_AMGViperKit_Tests.framework */; };
+		582090F01FD9160D00D678E1 /* AMGRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090E31FD9160D00D678E1 /* AMGRouter.m */; };
+		582090F11FD9160D00D678E1 /* NSObject+AMGViperAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090EB1FD9160D00D678E1 /* NSObject+AMGViperAssembly.m */; };
+		582090F21FD9160D00D678E1 /* UIApplication+AMGViperRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090ED1FD9160D00D678E1 /* UIApplication+AMGViperRouter.m */; };
+		582090F31FD9160D00D678E1 /* UIViewController+AMGViperRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090EF1FD9160D00D678E1 /* UIViewController+AMGViperRouter.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +44,20 @@
 		003B442E833D7884FE1F3B81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0583DA8A83FC147D169CC195 /* Pods-AMGViperKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGViperKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMGViperKit_Example/Pods-AMGViperKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2423F15C6E0F5BA10735355A /* Pods-AMGViperKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGViperKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMGViperKit_Example/Pods-AMGViperKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		582090E21FD9160D00D678E1 /* AMGRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGRouter.h; sourceTree = "<group>"; };
+		582090E31FD9160D00D678E1 /* AMGRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGRouter.m; sourceTree = "<group>"; };
+		582090E41FD9160D00D678E1 /* AMGViper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViper.h; sourceTree = "<group>"; };
+		582090E51FD9160D00D678E1 /* AMGViperInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperInteractor.h; sourceTree = "<group>"; };
+		582090E61FD9160D00D678E1 /* AMGViperPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperPresenter.h; sourceTree = "<group>"; };
+		582090E71FD9160D00D678E1 /* AMGViperRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperRouter.h; sourceTree = "<group>"; };
+		582090E81FD9160D00D678E1 /* AMGViperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperView.h; sourceTree = "<group>"; };
+		582090E91FD9160D00D678E1 /* AMGViperWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperWireframe.h; sourceTree = "<group>"; };
+		582090EA1FD9160D00D678E1 /* NSObject+AMGViperAssembly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AMGViperAssembly.h"; sourceTree = "<group>"; };
+		582090EB1FD9160D00D678E1 /* NSObject+AMGViperAssembly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AMGViperAssembly.m"; sourceTree = "<group>"; };
+		582090EC1FD9160D00D678E1 /* UIApplication+AMGViperRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AMGViperRouter.h"; sourceTree = "<group>"; };
+		582090ED1FD9160D00D678E1 /* UIApplication+AMGViperRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AMGViperRouter.m"; sourceTree = "<group>"; };
+		582090EE1FD9160D00D678E1 /* UIViewController+AMGViperRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMGViperRouter.h"; sourceTree = "<group>"; };
+		582090EF1FD9160D00D678E1 /* UIViewController+AMGViperRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMGViperRouter.m"; sourceTree = "<group>"; };
 		5BB9D2AB397C30F74E3C11E5 /* Pods-AMGViperKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGViperKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMGViperKit_Tests/Pods-AMGViperKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AMGViperKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMGViperKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,9 +113,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		582090E11FD9160D00D678E1 /* AMGViperKit */ = {
+			isa = PBXGroup;
+			children = (
+				582090E21FD9160D00D678E1 /* AMGRouter.h */,
+				582090E31FD9160D00D678E1 /* AMGRouter.m */,
+				582090E41FD9160D00D678E1 /* AMGViper.h */,
+				582090E51FD9160D00D678E1 /* AMGViperInteractor.h */,
+				582090E61FD9160D00D678E1 /* AMGViperPresenter.h */,
+				582090E71FD9160D00D678E1 /* AMGViperRouter.h */,
+				582090E81FD9160D00D678E1 /* AMGViperView.h */,
+				582090E91FD9160D00D678E1 /* AMGViperWireframe.h */,
+				582090EA1FD9160D00D678E1 /* NSObject+AMGViperAssembly.h */,
+				582090EB1FD9160D00D678E1 /* NSObject+AMGViperAssembly.m */,
+				582090EC1FD9160D00D678E1 /* UIApplication+AMGViperRouter.h */,
+				582090ED1FD9160D00D678E1 /* UIApplication+AMGViperRouter.m */,
+				582090EE1FD9160D00D678E1 /* UIViewController+AMGViperRouter.h */,
+				582090EF1FD9160D00D678E1 /* UIViewController+AMGViperRouter.m */,
+			);
+			name = AMGViperKit;
+			path = ../AMGViperKit/Classes/AMGViperKit;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				582090E11FD9160D00D678E1 /* AMGViperKit */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for AMGViperKit */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -403,8 +444,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				582090F01FD9160D00D678E1 /* AMGRouter.m in Sources */,
+				582090F31FD9160D00D678E1 /* UIViewController+AMGViperRouter.m in Sources */,
 				6003F59E195388D20070C39A /* AMGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* AMGViewController.m in Sources */,
+				582090F11FD9160D00D678E1 /* NSObject+AMGViperAssembly.m in Sources */,
+				582090F21FD9160D00D678E1 /* UIApplication+AMGViperRouter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
