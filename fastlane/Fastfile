@@ -1,0 +1,41 @@
+desc 'ManagerLib 使用这个通道可以快速的对自己的私有库进行升级维护'
+lane :ManagerLib do |options|
+
+tagName = options[:tag]
+targetName = options[:target]
+message = options[:msg]
+
+# 具体这个通道上面执行哪些行为
+
+# 1. pod install
+cocoapods(
+clean: true,
+podfile: "./Example/Podfile"
+)
+
+# 2. git add .
+git_add(path: ".")
+#    git commit -m 'xxx'
+git_commit(path: ".", message: "#{message}")
+#    git push origin master
+push_to_git_remote
+
+# 验证tag是否存在，如果存在，应该删除本地远程tag
+if git_tag_exists(tag: tagName)
+  UI.message("Fount it tag:#{tagName}")
+  remove_tag(tag: tagName)
+end
+
+# 3. git tag -a '标签名' -m 'xxx'
+add_git_tag(
+tag: tagName
+)
+#    git push --tags
+push_git_tags
+
+# 4. pod lib lint
+pod_lib_lint(allow_warnings: true)
+#    pod spec lint
+#    pod repo push XXX xxx.podspec
+pod_push(path: "#{targetName}.podspec", allow_warnings: true)
+end

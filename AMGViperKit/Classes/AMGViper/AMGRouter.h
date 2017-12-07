@@ -1,0 +1,23 @@
+//
+//  AMGRouter.h
+//  AMGViperText
+//
+//  Created by amglfk on 2017/12/5.
+//  Copyright © 2017年 amglfk. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "AMGViperRouter.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface AMGRouter : NSObject<AMGViperRouter>
+
++ (void)pushViewController:(UIViewController *)destination fromViewController:(UIViewController *)source animated:(BOOL)animated;
++ (void)popViewController:(UIViewController *)viewController animated:(BOOL)animated;
++ (void)presentViewController:(UIViewController *)viewControllerToPresent fromViewController:(UIViewController *)source animated:(BOOL)animated completion:(void (^ __nullable)(void))completion;
++ (void)dismissViewController:(UIViewController *)viewController animated:(BOOL)animated completion:(void (^ __nullable)(void))completion;
+
+@end
+
+NS_ASSUME_NONNULL_END

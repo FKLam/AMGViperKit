@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		088E30E37DC4DE9814F4FC953A1640B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		124078C6BF3D27C1F220CD5B45218E10 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1DB53963DBB602B1A619324BEE7E55 /* ReplaceMe.m */; };
+		870029BD1625B987B8DC28C31041655D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		ACD37B0745C6FC6F913A8CF39365A909 /* Pods-AMGViperKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE595613E382B4791EDA684E4CD257 /* Pods-AMGViperKit_Tests-dummy.m */; };
+		B8C7760831229ACF89CB91123C886C63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BD7AE87E14F529AF29E39531649FE670 /* Pods-AMGViperKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A996D81FD7F1CEB4D028AB630A6552 /* Pods-AMGViperKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF4614B354EFAA835AFDAE989438E402 /* Pods-AMGViperKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C154083D620AF1CD61992A4FDDA1FD55 /* Pods-AMGViperKit_Example-dummy.m */; };
+		C31479228BE07C1600D9C8E8BC2FA9AF /* AMGViperKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5DD1DC54100F86F2115E2DD21B4B8 /* AMGViperKit-dummy.m */; };
+		EA001EB5402AC6EB7ABD948F8F693715 /* AMGViperKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2069EF5A9BF817D7EED76885A494A5 /* AMGViperKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA56007D1A20BA28545AE8AEA58F7C80 /* Pods-AMGViperKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A53E0023E85E30A489F1598E93D602 /* Pods-AMGViperKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		349179081AF70246DC695EB506F7912E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ECAA9B8605B3AAD240A53485DE16385;
+			remoteInfo = AMGViperKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C2069EF5A9BF817D7EED76885A494A5 /* AMGViperKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMGViperKit-umbrella.h"; sourceTree = "<group>"; };
+		13378975EA71DE3088105B84FD19B63D /* AMGViperKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMGViperKit.framework; path = AMGViperKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16F47D9129ACA104056EB7BC0A8BCFE7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17660B8FB3EBCB193649883B14AAA35E /* Pods-AMGViperKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGViperKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DC56892588A8C00FF7A2DFCD44405AC /* Pods_AMGViperKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMGViperKit_Example.framework; path = "Pods-AMGViperKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FB4D78D0565CCB6B444E548AABF6BC /* Pods-AMGViperKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMGViperKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D502403B4EF4414AFBE2474ED00C241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384C354AD25C5A9949B2BC1792ABCAF2 /* Pods-AMGViperKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGViperKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4071DB106565B3ED09A2C4C78ABDB7C6 /* Pods_AMGViperKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMGViperKit_Tests.framework; path = "Pods-AMGViperKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48516957BD2FA957435D69FF7C8F4569 /* Pods-AMGViperKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGViperKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		48A996D81FD7F1CEB4D028AB630A6552 /* Pods-AMGViperKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMGViperKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B4B869EEFF773B083EE27730AA44483 /* Pods-AMGViperKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMGViperKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68E4E96777B54DDAB282878F7689BB6D /* AMGViperKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMGViperKit.xcconfig; sourceTree = "<group>"; };
+		6CE5DD1DC54100F86F2115E2DD21B4B8 /* AMGViperKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMGViperKit-dummy.m"; sourceTree = "<group>"; };
+		72CA34893ADB82E0D325F441986BB2B9 /* Pods-AMGViperKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AMGViperKit_Example.modulemap"; sourceTree = "<group>"; };
+		7C0F7753CC44343F6EFE85516887E98A /* Pods-AMGViperKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMGViperKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7D6F9920A71E63A194CF3AFA5010F728 /* Pods-AMGViperKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGViperKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		80C0ECFB8ABB82BDA39CD7D19AC44907 /* Pods-AMGViperKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMGViperKit_Example-resources.sh"; sourceTree = "<group>"; };
+		8BAE595613E382B4791EDA684E4CD257 /* Pods-AMGViperKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMGViperKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C256D1CE6CC51F4EA19E6E63739C5B5 /* Pods-AMGViperKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMGViperKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A95BA8D8D0615FED75872136B4362B6A /* Pods-AMGViperKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMGViperKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA1DB53963DBB602B1A619324BEE7E55 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AMGViperKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BEFA8F40FFA62D44422B195467F4CC6A /* Pods-AMGViperKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMGViperKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C1415FCB61420E3A7DC6FF7B5B1E6C80 /* Pods-AMGViperKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMGViperKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C154083D620AF1CD61992A4FDDA1FD55 /* Pods-AMGViperKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMGViperKit_Example-dummy.m"; sourceTree = "<group>"; };
+		C68EF8B15EADBF06AD3BB94D0316D095 /* AMGViperKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AMGViperKit.modulemap; sourceTree = "<group>"; };
+		C6A53E0023E85E30A489F1598E93D602 /* Pods-AMGViperKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMGViperKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D5ED267C91CCCDFE6972192C61F2994F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD3C7E9FFAAC96A1B2F4E6706B024EBB /* AMGViperKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMGViperKit-prefix.pch"; sourceTree = "<group>"; };
+		EE74DA94D4AA9DFAA5600AFA2E5FABAE /* Pods-AMGViperKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AMGViperKit_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76F46513004A0FB0684EEB06716AA7B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C7760831229ACF89CB91123C886C63 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E6DC48C4B55715BCB5104EC38DB7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870029BD1625B987B8DC28C31041655D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA47F89C8BF50B4FA024B2CBBBAEEC8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088E30E37DC4DE9814F4FC953A1640B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27AF6CBF02292D31BF21A1442500AA9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13378975EA71DE3088105B84FD19B63D /* AMGViperKit.framework */,
+				1DC56892588A8C00FF7A2DFCD44405AC /* Pods_AMGViperKit_Example.framework */,
+				4071DB106565B3ED09A2C4C78ABDB7C6 /* Pods_AMGViperKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281E99646F35ACBDF607D20054051F7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E8A8909B970033815E38ABD77BB8BE8 /* Pods-AMGViperKit_Example */,
+				6B3E4D675CFC1B978F071EED0AFA4450 /* Pods-AMGViperKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6B3E4D675CFC1B978F071EED0AFA4450 /* Pods-AMGViperKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				16F47D9129ACA104056EB7BC0A8BCFE7 /* Info.plist */,
+				EE74DA94D4AA9DFAA5600AFA2E5FABAE /* Pods-AMGViperKit_Tests.modulemap */,
+				5B4B869EEFF773B083EE27730AA44483 /* Pods-AMGViperKit_Tests-acknowledgements.markdown */,
+				C1415FCB61420E3A7DC6FF7B5B1E6C80 /* Pods-AMGViperKit_Tests-acknowledgements.plist */,
+				8BAE595613E382B4791EDA684E4CD257 /* Pods-AMGViperKit_Tests-dummy.m */,
+				BEFA8F40FFA62D44422B195467F4CC6A /* Pods-AMGViperKit_Tests-frameworks.sh */,
+				22FB4D78D0565CCB6B444E548AABF6BC /* Pods-AMGViperKit_Tests-resources.sh */,
+				C6A53E0023E85E30A489F1598E93D602 /* Pods-AMGViperKit_Tests-umbrella.h */,
+				A95BA8D8D0615FED75872136B4362B6A /* Pods-AMGViperKit_Tests.debug.xcconfig */,
+				384C354AD25C5A9949B2BC1792ABCAF2 /* Pods-AMGViperKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMGViperKit_Tests";
+			path = "Target Support Files/Pods-AMGViperKit_Tests";
+			sourceTree = "<group>";
+		};
+		6E8A8909B970033815E38ABD77BB8BE8 /* Pods-AMGViperKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D502403B4EF4414AFBE2474ED00C241 /* Info.plist */,
+				72CA34893ADB82E0D325F441986BB2B9 /* Pods-AMGViperKit_Example.modulemap */,
+				8C256D1CE6CC51F4EA19E6E63739C5B5 /* Pods-AMGViperKit_Example-acknowledgements.markdown */,
+				17660B8FB3EBCB193649883B14AAA35E /* Pods-AMGViperKit_Example-acknowledgements.plist */,
+				C154083D620AF1CD61992A4FDDA1FD55 /* Pods-AMGViperKit_Example-dummy.m */,
+				7C0F7753CC44343F6EFE85516887E98A /* Pods-AMGViperKit_Example-frameworks.sh */,
+				80C0ECFB8ABB82BDA39CD7D19AC44907 /* Pods-AMGViperKit_Example-resources.sh */,
+				48A996D81FD7F1CEB4D028AB630A6552 /* Pods-AMGViperKit_Example-umbrella.h */,
+				48516957BD2FA957435D69FF7C8F4569 /* Pods-AMGViperKit_Example.debug.xcconfig */,
+				7D6F9920A71E63A194CF3AFA5010F728 /* Pods-AMGViperKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AMGViperKit_Example";
+			path = "Target Support Files/Pods-AMGViperKit_Example";
+			sourceTree = "<group>";
+		};
+		75BABA6D5F07E7A1D2FA46D0F3ECB947 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DEA681FA0CE354E47B980DA6713AF49 /* AMGViperKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				75BABA6D5F07E7A1D2FA46D0F3ECB947 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				27AF6CBF02292D31BF21A1442500AA9D /* Products */,
+				281E99646F35ACBDF607D20054051F7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7E8825E7F135D152038D1A9D6CC2FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C68EF8B15EADBF06AD3BB94D0316D095 /* AMGViperKit.modulemap */,
+				68E4E96777B54DDAB282878F7689BB6D /* AMGViperKit.xcconfig */,
+				6CE5DD1DC54100F86F2115E2DD21B4B8 /* AMGViperKit-dummy.m */,
+				DD3C7E9FFAAC96A1B2F4E6706B024EBB /* AMGViperKit-prefix.pch */,
+				0C2069EF5A9BF817D7EED76885A494A5 /* AMGViperKit-umbrella.h */,
+				D5ED267C91CCCDFE6972192C61F2994F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AMGViperKit";
+			sourceTree = "<group>";
+		};
+		9DEA681FA0CE354E47B980DA6713AF49 /* AMGViperKit */ = {
+			isa = PBXGroup;
+			children = (
+				AA1DB53963DBB602B1A619324BEE7E55 /* ReplaceMe.m */,
+				8F7E8825E7F135D152038D1A9D6CC2FE /* Support Files */,
+			);
+			name = AMGViperKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		534181502940D702346F90F650B684B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA001EB5402AC6EB7ABD948F8F693715 /* AMGViperKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAD10799203BAB3BE71C70D8E117A7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA56007D1A20BA28545AE8AEA58F7C80 /* Pods-AMGViperKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F914B86C3C6B59231570C73AD9324D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7AE87E14F529AF29E39531649FE670 /* Pods-AMGViperKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31ED58745DD94E55BBA5ADCD51626377 /* Pods-AMGViperKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8B3B59DDD8F0ABCDDC5BA44D230142 /* Build configuration list for PBXNativeTarget "Pods-AMGViperKit_Tests" */;
+			buildPhases = (
+				13F974246E22C4A5B487FA64DC71F965 /* Sources */,
+				FA47F89C8BF50B4FA024B2CBBBAEEC8E /* Frameworks */,
+				9BAD10799203BAB3BE71C70D8E117A7E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AMGViperKit_Tests";
+			productName = "Pods-AMGViperKit_Tests";
+			productReference = 4071DB106565B3ED09A2C4C78ABDB7C6 /* Pods_AMGViperKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3ECAA9B8605B3AAD240A53485DE16385 /* AMGViperKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451B92B8EC03C176135046FD2C2A8E74 /* Build configuration list for PBXNativeTarget "AMGViperKit" */;
+			buildPhases = (
+				EA92409D777057559646EC057DC2DC73 /* Sources */,
+				76F46513004A0FB0684EEB06716AA7B2 /* Frameworks */,
+				534181502940D702346F90F650B684B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMGViperKit;
+			productName = AMGViperKit;
+			productReference = 13378975EA71DE3088105B84FD19B63D /* AMGViperKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65F089DB6D3A16E5657E074E57ED8E4B /* Pods-AMGViperKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790038452EFDDE68474EA811353DB238 /* Build configuration list for PBXNativeTarget "Pods-AMGViperKit_Example" */;
+			buildPhases = (
+				54EAF3F215581231172273EAB7BE7708 /* Sources */,
+				82E6DC48C4B55715BCB5104EC38DB7F1 /* Frameworks */,
+				E8F914B86C3C6B59231570C73AD9324D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC38889C960CC048463B4AF936CB761D /* PBXTargetDependency */,
+			);
+			name = "Pods-AMGViperKit_Example";
+			productName = "Pods-AMGViperKit_Example";
+			productReference = 1DC56892588A8C00FF7A2DFCD44405AC /* Pods_AMGViperKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 27AF6CBF02292D31BF21A1442500AA9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ECAA9B8605B3AAD240A53485DE16385 /* AMGViperKit */,
+				65F089DB6D3A16E5657E074E57ED8E4B /* Pods-AMGViperKit_Example */,
+				31ED58745DD94E55BBA5ADCD51626377 /* Pods-AMGViperKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13F974246E22C4A5B487FA64DC71F965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACD37B0745C6FC6F913A8CF39365A909 /* Pods-AMGViperKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54EAF3F215581231172273EAB7BE7708 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4614B354EFAA835AFDAE989438E402 /* Pods-AMGViperKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA92409D777057559646EC057DC2DC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31479228BE07C1600D9C8E8BC2FA9AF /* AMGViperKit-dummy.m in Sources */,
+				124078C6BF3D27C1F220CD5B45218E10 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC38889C960CC048463B4AF936CB761D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMGViperKit;
+			target = 3ECAA9B8605B3AAD240A53485DE16385 /* AMGViperKit */;
+			targetProxy = 349179081AF70246DC695EB506F7912E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1753778B26492CEE9D1B5AA6A4C46D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6F9920A71E63A194CF3AFA5010F728 /* Pods-AMGViperKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGViperKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGViperKit_Example/Pods-AMGViperKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMGViperKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7FFA6AB6D1CFC945170E6BBF951EF329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95BA8D8D0615FED75872136B4362B6A /* Pods-AMGViperKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGViperKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGViperKit_Tests/Pods-AMGViperKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMGViperKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B9117F83F44D166B54A07EDE1589D5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E4E96777B54DDAB282878F7689BB6D /* AMGViperKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMGViperKit/AMGViperKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMGViperKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMGViperKit/AMGViperKit.modulemap";
+				PRODUCT_NAME = AMGViperKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB1171A1B69AA0AC18AC1365F8DC1D9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48516957BD2FA957435D69FF7C8F4569 /* Pods-AMGViperKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGViperKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGViperKit_Example/Pods-AMGViperKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMGViperKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA2F0AAA1F7449076A92C15B6CEF73DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 384C354AD25C5A9949B2BC1792ABCAF2 /* Pods-AMGViperKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMGViperKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMGViperKit_Tests/Pods-AMGViperKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AMGViperKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E17CB9575BF8610AB778E4DF134BD86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E4E96777B54DDAB282878F7689BB6D /* AMGViperKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMGViperKit/AMGViperKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMGViperKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMGViperKit/AMGViperKit.modulemap";
+				PRODUCT_NAME = AMGViperKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451B92B8EC03C176135046FD2C2A8E74 /* Build configuration list for PBXNativeTarget "AMGViperKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E17CB9575BF8610AB778E4DF134BD86B /* Debug */,
+				B9117F83F44D166B54A07EDE1589D5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790038452EFDDE68474EA811353DB238 /* Build configuration list for PBXNativeTarget "Pods-AMGViperKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1171A1B69AA0AC18AC1365F8DC1D9F /* Debug */,
+				1753778B26492CEE9D1B5AA6A4C46D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F8B3B59DDD8F0ABCDDC5BA44D230142 /* Build configuration list for PBXNativeTarget "Pods-AMGViperKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FFA6AB6D1CFC945170E6BBF951EF329 /* Debug */,
+				CA2F0AAA1F7449076A92C15B6CEF73DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

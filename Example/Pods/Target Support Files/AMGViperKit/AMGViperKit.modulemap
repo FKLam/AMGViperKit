@@ -1,0 +1,6 @@
+framework module AMGViperKit {
+  umbrella header "AMGViperKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

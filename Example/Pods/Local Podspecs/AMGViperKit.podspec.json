@@ -1,0 +1,22 @@
+{
+  "name": "AMGViperKit",
+  "version": "0.1.0",
+  "summary": "A short description of AMGViperKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FKLam/AMGViperKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FKLam": "1783956729@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/FKLam/AMGViperKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AMGViperKit/Classes/**/*"
+}
