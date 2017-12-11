@@ -1,5 +1,5 @@
 PODS:
-  - AMGViperKit (0.1.1)
+  - AMGViperKit (0.1.2)
 
 DEPENDENCIES:
   - AMGViperKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AMGViperKit: dd23b4837ce1141aab020400e31332e87f60c927
+  AMGViperKit: 8585fb96ac885c450a10f5c216f037fc80b2ce3a
 
 PODFILE CHECKSUM: e55cbed1f5bb34676baa00d98654d0e51d6db19d
 

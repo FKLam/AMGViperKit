@@ -46,7 +46,7 @@
 		2423F15C6E0F5BA10735355A /* Pods-AMGViperKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGViperKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMGViperKit_Example/Pods-AMGViperKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		582090E21FD9160D00D678E1 /* AMGRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGRouter.h; sourceTree = "<group>"; };
 		582090E31FD9160D00D678E1 /* AMGRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGRouter.m; sourceTree = "<group>"; };
-		582090E41FD9160D00D678E1 /* AMGViper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViper.h; sourceTree = "<group>"; };
+		582090E41FD9160D00D678E1 /* AMGViperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperKit.h; sourceTree = "<group>"; };
 		582090E51FD9160D00D678E1 /* AMGViperInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperInteractor.h; sourceTree = "<group>"; };
 		582090E61FD9160D00D678E1 /* AMGViperPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperPresenter.h; sourceTree = "<group>"; };
 		582090E71FD9160D00D678E1 /* AMGViperRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGViperRouter.h; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 			children = (
 				582090E21FD9160D00D678E1 /* AMGRouter.h */,
 				582090E31FD9160D00D678E1 /* AMGRouter.m */,
-				582090E41FD9160D00D678E1 /* AMGViper.h */,
+				582090E41FD9160D00D678E1 /* AMGViperKit.h */,
 				582090E51FD9160D00D678E1 /* AMGViperInteractor.h */,
 				582090E61FD9160D00D678E1 /* AMGViperPresenter.h */,
 				582090E71FD9160D00D678E1 /* AMGViperRouter.h */,

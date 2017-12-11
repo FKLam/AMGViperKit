@@ -6,8 +6,8 @@
 //  Copyright © 2017年 amglfk. All rights reserved.
 //
 
-#ifndef AMGViper_h
-#define AMGViper_h
+#ifndef AMGViperKit_h
+#define AMGViperKit_h
 
 #import "NSObject+AMGViperAssembly.h"
 #import "UIViewController+AMGViperRouter.h"
@@ -19,4 +19,4 @@
 #import "AMGRouter.h"
 #import "UIApplication+AMGViperRouter.h"
 
-#endif /* AMGViper_h */
+#endif /* AMGViperKit_h */

@@ -11,8 +11,8 @@
 #endif
 
 #import "AMGRouter.h"
-#import "AMGViper.h"
 #import "AMGViperInteractor.h"
+#import "AMGViperKit.h"
 #import "AMGViperPresenter.h"
 #import "AMGViperRouter.h"
 #import "AMGViperView.h"
