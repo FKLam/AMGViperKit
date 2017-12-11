@@ -12,6 +12,19 @@
 		582090F11FD9160D00D678E1 /* NSObject+AMGViperAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090EB1FD9160D00D678E1 /* NSObject+AMGViperAssembly.m */; };
 		582090F21FD9160D00D678E1 /* UIApplication+AMGViperRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090ED1FD9160D00D678E1 /* UIApplication+AMGViperRouter.m */; };
 		582090F31FD9160D00D678E1 /* UIViewController+AMGViperRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 582090EF1FD9160D00D678E1 /* UIViewController+AMGViperRouter.m */; };
+		5884A3BA1FDE13B900835DB0 /* AMGHomeBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3A21FDE13B900835DB0 /* AMGHomeBuilder.m */; };
+		5884A3BB1FDE13B900835DB0 /* AMGHomeInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3A61FDE13B900835DB0 /* AMGHomeInteractor.m */; };
+		5884A3BC1FDE13B900835DB0 /* AMGHomePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3AB1FDE13B900835DB0 /* AMGHomePresenter.m */; };
+		5884A3BD1FDE13B900835DB0 /* AMGHomeWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3B01FDE13B900835DB0 /* AMGHomeWireframe.m */; };
+		5884A3BE1FDE13B900835DB0 /* AMGHomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3B41FDE13B900835DB0 /* AMGHomeService.m */; };
+		5884A3BF1FDE13B900835DB0 /* AMGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3B71FDE13B900835DB0 /* AMGHomeViewController.m */; };
+		5884A3E01FDE13C400835DB0 /* AMGRouter+AMGDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3C31FDE13C400835DB0 /* AMGRouter+AMGDetail.m */; };
+		5884A3E11FDE13C400835DB0 /* AMGDetailBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3C61FDE13C400835DB0 /* AMGDetailBuilder.m */; };
+		5884A3E21FDE13C400835DB0 /* AMGDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3CA1FDE13C400835DB0 /* AMGDetailInteractor.m */; };
+		5884A3E31FDE13C400835DB0 /* AMGDetailPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3CF1FDE13C400835DB0 /* AMGDetailPresenter.m */; };
+		5884A3E41FDE13C400835DB0 /* AMGDetailWireframe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3D41FDE13C400835DB0 /* AMGDetailWireframe.m */; };
+		5884A3E51FDE13C400835DB0 /* AMGDetailService.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3D81FDE13C400835DB0 /* AMGDetailService.m */; };
+		5884A3E61FDE13C500835DB0 /* AMGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5884A3DB1FDE13C400835DB0 /* AMGDetailViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -58,6 +71,48 @@
 		582090ED1FD9160D00D678E1 /* UIApplication+AMGViperRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+AMGViperRouter.m"; sourceTree = "<group>"; };
 		582090EE1FD9160D00D678E1 /* UIViewController+AMGViperRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AMGViperRouter.h"; sourceTree = "<group>"; };
 		582090EF1FD9160D00D678E1 /* UIViewController+AMGViperRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AMGViperRouter.m"; sourceTree = "<group>"; };
+		5884A3A11FDE13B900835DB0 /* AMGHomeBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeBuilder.h; sourceTree = "<group>"; };
+		5884A3A21FDE13B900835DB0 /* AMGHomeBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGHomeBuilder.m; sourceTree = "<group>"; };
+		5884A3A51FDE13B900835DB0 /* AMGHomeInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeInteractor.h; sourceTree = "<group>"; };
+		5884A3A61FDE13B900835DB0 /* AMGHomeInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGHomeInteractor.m; sourceTree = "<group>"; };
+		5884A3A71FDE13B900835DB0 /* AMGHomeInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeInteractorInput.h; sourceTree = "<group>"; };
+		5884A3A81FDE13B900835DB0 /* AMGHomeInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeInteractorOutput.h; sourceTree = "<group>"; };
+		5884A3AA1FDE13B900835DB0 /* AMGHomePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomePresenter.h; sourceTree = "<group>"; };
+		5884A3AB1FDE13B900835DB0 /* AMGHomePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGHomePresenter.m; sourceTree = "<group>"; };
+		5884A3AC1FDE13B900835DB0 /* AMGHomePresenterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomePresenterInput.h; sourceTree = "<group>"; };
+		5884A3AE1FDE13B900835DB0 /* AMGHomeRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeRouterInput.h; sourceTree = "<group>"; };
+		5884A3AF1FDE13B900835DB0 /* AMGHomeWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeWireframe.h; sourceTree = "<group>"; };
+		5884A3B01FDE13B900835DB0 /* AMGHomeWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGHomeWireframe.m; sourceTree = "<group>"; };
+		5884A3B11FDE13B900835DB0 /* AMGHomeWireframeInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeWireframeInput.h; sourceTree = "<group>"; };
+		5884A3B31FDE13B900835DB0 /* AMGHomeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeService.h; sourceTree = "<group>"; };
+		5884A3B41FDE13B900835DB0 /* AMGHomeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGHomeService.m; sourceTree = "<group>"; };
+		5884A3B61FDE13B900835DB0 /* AMGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeViewController.h; sourceTree = "<group>"; };
+		5884A3B71FDE13B900835DB0 /* AMGHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGHomeViewController.m; sourceTree = "<group>"; };
+		5884A3B81FDE13B900835DB0 /* AMGHomeViewControllerInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeViewControllerInput.h; sourceTree = "<group>"; };
+		5884A3B91FDE13B900835DB0 /* AMGHomeViewControllerOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGHomeViewControllerOutput.h; sourceTree = "<group>"; };
+		5884A3C21FDE13C400835DB0 /* AMGRouter+AMGDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AMGRouter+AMGDetail.h"; sourceTree = "<group>"; };
+		5884A3C31FDE13C400835DB0 /* AMGRouter+AMGDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AMGRouter+AMGDetail.m"; sourceTree = "<group>"; };
+		5884A3C51FDE13C400835DB0 /* AMGDetailBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailBuilder.h; sourceTree = "<group>"; };
+		5884A3C61FDE13C400835DB0 /* AMGDetailBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDetailBuilder.m; sourceTree = "<group>"; };
+		5884A3C91FDE13C400835DB0 /* AMGDetailInteractor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailInteractor.h; sourceTree = "<group>"; };
+		5884A3CA1FDE13C400835DB0 /* AMGDetailInteractor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDetailInteractor.m; sourceTree = "<group>"; };
+		5884A3CB1FDE13C400835DB0 /* AMGDetailInteractorInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailInteractorInput.h; sourceTree = "<group>"; };
+		5884A3CC1FDE13C400835DB0 /* AMGDetailInteractorOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailInteractorOutput.h; sourceTree = "<group>"; };
+		5884A3CE1FDE13C400835DB0 /* AMGDetailPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailPresenter.h; sourceTree = "<group>"; };
+		5884A3CF1FDE13C400835DB0 /* AMGDetailPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDetailPresenter.m; sourceTree = "<group>"; };
+		5884A3D01FDE13C400835DB0 /* AMGDetailPresenterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailPresenterInput.h; sourceTree = "<group>"; };
+		5884A3D21FDE13C400835DB0 /* AMGDetailRouterInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailRouterInput.h; sourceTree = "<group>"; };
+		5884A3D31FDE13C400835DB0 /* AMGDetailWireframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailWireframe.h; sourceTree = "<group>"; };
+		5884A3D41FDE13C400835DB0 /* AMGDetailWireframe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDetailWireframe.m; sourceTree = "<group>"; };
+		5884A3D51FDE13C400835DB0 /* AMGDetailWireframeInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailWireframeInput.h; sourceTree = "<group>"; };
+		5884A3D71FDE13C400835DB0 /* AMGDetailService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailService.h; sourceTree = "<group>"; };
+		5884A3D81FDE13C400835DB0 /* AMGDetailService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDetailService.m; sourceTree = "<group>"; };
+		5884A3DA1FDE13C400835DB0 /* AMGDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailViewController.h; sourceTree = "<group>"; };
+		5884A3DB1FDE13C400835DB0 /* AMGDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMGDetailViewController.m; sourceTree = "<group>"; };
+		5884A3DC1FDE13C400835DB0 /* AMGDetailViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailViewControllerDelegate.h; sourceTree = "<group>"; };
+		5884A3DD1FDE13C400835DB0 /* AMGDetailViewControllerInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailViewControllerInput.h; sourceTree = "<group>"; };
+		5884A3DE1FDE13C400835DB0 /* AMGDetailViewControllerOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailViewControllerOutput.h; sourceTree = "<group>"; };
+		5884A3DF1FDE13C400835DB0 /* AMGDetailViewControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMGDetailViewControllerProtocol.h; sourceTree = "<group>"; };
 		5BB9D2AB397C30F74E3C11E5 /* Pods-AMGViperKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMGViperKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMGViperKit_Tests/Pods-AMGViperKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* AMGViperKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMGViperKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -135,6 +190,182 @@
 			path = ../AMGViperKit/Classes/AMGViperKit;
 			sourceTree = "<group>";
 		};
+		5884A39F1FDE13B900835DB0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3A01FDE13B900835DB0 /* Builder */,
+				5884A3A31FDE13B900835DB0 /* Entity */,
+				5884A3A41FDE13B900835DB0 /* Interactor */,
+				5884A3A91FDE13B900835DB0 /* Presenter */,
+				5884A3AD1FDE13B900835DB0 /* Router */,
+				5884A3B21FDE13B900835DB0 /* Service */,
+				5884A3B51FDE13B900835DB0 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5884A3A01FDE13B900835DB0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3A11FDE13B900835DB0 /* AMGHomeBuilder.h */,
+				5884A3A21FDE13B900835DB0 /* AMGHomeBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5884A3A31FDE13B900835DB0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5884A3A41FDE13B900835DB0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3A51FDE13B900835DB0 /* AMGHomeInteractor.h */,
+				5884A3A61FDE13B900835DB0 /* AMGHomeInteractor.m */,
+				5884A3A71FDE13B900835DB0 /* AMGHomeInteractorInput.h */,
+				5884A3A81FDE13B900835DB0 /* AMGHomeInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5884A3A91FDE13B900835DB0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3AA1FDE13B900835DB0 /* AMGHomePresenter.h */,
+				5884A3AB1FDE13B900835DB0 /* AMGHomePresenter.m */,
+				5884A3AC1FDE13B900835DB0 /* AMGHomePresenterInput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5884A3AD1FDE13B900835DB0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3AE1FDE13B900835DB0 /* AMGHomeRouterInput.h */,
+				5884A3AF1FDE13B900835DB0 /* AMGHomeWireframe.h */,
+				5884A3B01FDE13B900835DB0 /* AMGHomeWireframe.m */,
+				5884A3B11FDE13B900835DB0 /* AMGHomeWireframeInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5884A3B21FDE13B900835DB0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3B31FDE13B900835DB0 /* AMGHomeService.h */,
+				5884A3B41FDE13B900835DB0 /* AMGHomeService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5884A3B51FDE13B900835DB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3B61FDE13B900835DB0 /* AMGHomeViewController.h */,
+				5884A3B71FDE13B900835DB0 /* AMGHomeViewController.m */,
+				5884A3B81FDE13B900835DB0 /* AMGHomeViewControllerInput.h */,
+				5884A3B91FDE13B900835DB0 /* AMGHomeViewControllerOutput.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5884A3C01FDE13C400835DB0 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3C11FDE13C400835DB0 /* Adapter */,
+				5884A3C41FDE13C400835DB0 /* Builder */,
+				5884A3C71FDE13C400835DB0 /* Entity */,
+				5884A3C81FDE13C400835DB0 /* Interactor */,
+				5884A3CD1FDE13C400835DB0 /* Presenter */,
+				5884A3D11FDE13C400835DB0 /* Router */,
+				5884A3D61FDE13C400835DB0 /* Service */,
+				5884A3D91FDE13C400835DB0 /* View */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		5884A3C11FDE13C400835DB0 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3C21FDE13C400835DB0 /* AMGRouter+AMGDetail.h */,
+				5884A3C31FDE13C400835DB0 /* AMGRouter+AMGDetail.m */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		5884A3C41FDE13C400835DB0 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3C51FDE13C400835DB0 /* AMGDetailBuilder.h */,
+				5884A3C61FDE13C400835DB0 /* AMGDetailBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		5884A3C71FDE13C400835DB0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		5884A3C81FDE13C400835DB0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3C91FDE13C400835DB0 /* AMGDetailInteractor.h */,
+				5884A3CA1FDE13C400835DB0 /* AMGDetailInteractor.m */,
+				5884A3CB1FDE13C400835DB0 /* AMGDetailInteractorInput.h */,
+				5884A3CC1FDE13C400835DB0 /* AMGDetailInteractorOutput.h */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		5884A3CD1FDE13C400835DB0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3CE1FDE13C400835DB0 /* AMGDetailPresenter.h */,
+				5884A3CF1FDE13C400835DB0 /* AMGDetailPresenter.m */,
+				5884A3D01FDE13C400835DB0 /* AMGDetailPresenterInput.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		5884A3D11FDE13C400835DB0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3D21FDE13C400835DB0 /* AMGDetailRouterInput.h */,
+				5884A3D31FDE13C400835DB0 /* AMGDetailWireframe.h */,
+				5884A3D41FDE13C400835DB0 /* AMGDetailWireframe.m */,
+				5884A3D51FDE13C400835DB0 /* AMGDetailWireframeInput.h */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		5884A3D61FDE13C400835DB0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3D71FDE13C400835DB0 /* AMGDetailService.h */,
+				5884A3D81FDE13C400835DB0 /* AMGDetailService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5884A3D91FDE13C400835DB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5884A3DA1FDE13C400835DB0 /* AMGDetailViewController.h */,
+				5884A3DB1FDE13C400835DB0 /* AMGDetailViewController.m */,
+				5884A3DC1FDE13C400835DB0 /* AMGDetailViewControllerDelegate.h */,
+				5884A3DD1FDE13C400835DB0 /* AMGDetailViewControllerInput.h */,
+				5884A3DE1FDE13C400835DB0 /* AMGDetailViewControllerOutput.h */,
+				5884A3DF1FDE13C400835DB0 /* AMGDetailViewControllerProtocol.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +404,8 @@
 		6003F593195388D20070C39A /* Example for AMGViperKit */ = {
 			isa = PBXGroup;
 			children = (
+				5884A3C01FDE13C400835DB0 /* Detail */,
+				5884A39F1FDE13B900835DB0 /* Home */,
 				6003F59C195388D20070C39A /* AMGAppDelegate.h */,
 				6003F59D195388D20070C39A /* AMGAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -444,13 +677,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5884A3BA1FDE13B900835DB0 /* AMGHomeBuilder.m in Sources */,
+				5884A3BB1FDE13B900835DB0 /* AMGHomeInteractor.m in Sources */,
 				582090F01FD9160D00D678E1 /* AMGRouter.m in Sources */,
+				5884A3E41FDE13C400835DB0 /* AMGDetailWireframe.m in Sources */,
+				5884A3E21FDE13C400835DB0 /* AMGDetailInteractor.m in Sources */,
 				582090F31FD9160D00D678E1 /* UIViewController+AMGViperRouter.m in Sources */,
 				6003F59E195388D20070C39A /* AMGAppDelegate.m in Sources */,
+				5884A3BD1FDE13B900835DB0 /* AMGHomeWireframe.m in Sources */,
+				5884A3BE1FDE13B900835DB0 /* AMGHomeService.m in Sources */,
 				6003F5A7195388D20070C39A /* AMGViewController.m in Sources */,
+				5884A3E51FDE13C400835DB0 /* AMGDetailService.m in Sources */,
 				582090F11FD9160D00D678E1 /* NSObject+AMGViperAssembly.m in Sources */,
+				5884A3E31FDE13C400835DB0 /* AMGDetailPresenter.m in Sources */,
+				5884A3E01FDE13C400835DB0 /* AMGRouter+AMGDetail.m in Sources */,
+				5884A3BC1FDE13B900835DB0 /* AMGHomePresenter.m in Sources */,
 				582090F21FD9160D00D678E1 /* UIApplication+AMGViperRouter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				5884A3BF1FDE13B900835DB0 /* AMGHomeViewController.m in Sources */,
+				5884A3E11FDE13C400835DB0 /* AMGDetailBuilder.m in Sources */,
+				5884A3E61FDE13C500835DB0 /* AMGDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

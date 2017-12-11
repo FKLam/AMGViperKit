@@ -7,12 +7,29 @@
 //
 
 #import "AMGAppDelegate.h"
+#import "UIApplication+AMGViperRouter.h"
+#import "AMGHomeBuilder.h"
+#import "AMGHomeViewController.h"
 
 @implementation AMGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    window.backgroundColor = [UIColor whiteColor];
+    
+    AMGHomeViewController *home = [[AMGHomeViewController alloc] init];
+    
+    [AMGHomeBuilder buildView:home router:(id<AMGHomeRouterInput>)application.AMG_router];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:home];
+    
+    window.rootViewController = nav;
+    
+    [window makeKeyAndVisible];
+    
+    self.window = window;
+    
     return YES;
 }
 
